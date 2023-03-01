@@ -16,7 +16,7 @@ This code defines a new ERC-721 NFT contract called MyNFT with a name of "MyNFT"
 
 This code defines a new ERC-721 NFT contract called MyNFT with a name of "MyNFT" and a symbol of "NFT". It includes a mint function that can be used to create new tokens.
 
-# rskcli.py - How to create and deploy an ERC-721 NFT on the RSK blockchain using Solidity
+# rskcli.py
 
 Once you have written and compiled the contract, you can deploy it to the RSK blockchain using the RSK SDK. Here is an example of how to deploy the contract using the rskcli command-line tool.
 
@@ -26,7 +26,7 @@ $ rskcli deploy MyNFT.bin
 
 This command deploys the MyNFT contract bytecode to the RSK blockchain and returns the address of the newly deployed contract.
 
-# mint.js - How to create and deploy an ERC-721 NFT on the RSK blockchain using Solidity
+# mint.js
 
 Once the contract has been deployed, you can interact with it using the RSK SDK. For example, you can use the mint function to create new tokens.
 
