@@ -10,19 +10,23 @@ To code an NFT on the Bitcoin blockchain using Rootstock (RSK), you will need to
 6. Manage the token: Once the token has been deployed, you can manage it using the RSK SDK. This allows you to transfer tokens, check the balance of a particular address, and perform other actions related to the token.
 
 -------
-#MyNFT.sol - How to create and deploy an ERC-721 NFT on the RSK blockchain using Solidity
+# MyNFT.sol - How to create and deploy an ERC-721 NFT on the RSK blockchain using Solidity
 
 This code defines a new ERC-721 NFT contract called MyNFT with a name of "MyNFT" and a symbol of "NFT". It includes a mint function that can be used to create new tokens.
 
 This code defines a new ERC-721 NFT contract called MyNFT with a name of "MyNFT" and a symbol of "NFT". It includes a mint function that can be used to create new tokens.
 
-#rskcli.py - How to create and deploy an ERC-721 NFT on the RSK blockchain using Solidity
+# rskcli.py - How to create and deploy an ERC-721 NFT on the RSK blockchain using Solidity
 
 Once you have written and compiled the contract, you can deploy it to the RSK blockchain using the RSK SDK. Here is an example of how to deploy the contract using the rskcli command-line tool.
 
+```
+$ rskcli deploy MyNFT.bin
+```
+
 This command deploys the MyNFT contract bytecode to the RSK blockchain and returns the address of the newly deployed contract.
 
-#mint.js - How to create and deploy an ERC-721 NFT on the RSK blockchain using Solidity
+# mint.js - How to create and deploy an ERC-721 NFT on the RSK blockchain using Solidity
 
 Once the contract has been deployed, you can interact with it using the RSK SDK. For example, you can use the mint function to create new tokens.
 
